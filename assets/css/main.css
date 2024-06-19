@@ -67,7 +67,7 @@ div#page,
 }
 
 div#page {
-    max-width: 600pt;
+    max-width: 650pt;
 }
 
 img[class~=prof_pic] {
@@ -182,7 +182,7 @@ img[class~=prof_pic] {
 div#edu_content_1,
 div#main_content_1,
 div#work_content_1 {
-    width: 68%;
+    width: 72%;
 }
 
 div#edu_content_1,
@@ -426,7 +426,7 @@ ul[class~=filter] li {
 }
 
 .authors a {
-    font-variant: small-caps;
+    font-variant: normal;
 }
 
 .official_link a {
@@ -519,7 +519,7 @@ div#pub_content_1 {
 
 div#misc_content_1,
 div#pub_content_1 {
-    width: 68%;
+    width: 72%;
 }
 
 [class~=tab_selected] {
@@ -555,7 +555,7 @@ div#pub_content_1 {
 }
 
 [class~=pub_venue] {
-    font-style: italic;
+    font-style: normal;
 }
 
 [class~=pub_rest] {
@@ -575,7 +575,7 @@ div#pub_content_1 {
 }
 
 [class~=conf] {
-    color: #306060;
+    color: #750014;
 }
 
 .journal {
@@ -599,7 +599,7 @@ ul[class~=published] {
 }
 
 [class~=tag] {
-    background-color: #b651f0;
+    background-color: #686868;
 }
 
 [class~=tag] {
@@ -655,7 +655,7 @@ ul[class~=filter] {
 }
 
 div#side_profile {
-    width: 27%;
+    width: 25%;
 }
 
 div#side_profile {
