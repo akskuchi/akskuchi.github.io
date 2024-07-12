@@ -66,6 +66,17 @@ div#page,
     display: block;
 }
 
+[class~=news_date] {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+[class~=edu_mentor],
+[class~=edu_thesis],
+[class~=work_details] {
+    font-size: 13pt;
+}
+
 div#page {
     max-width: 650pt;
 }
@@ -380,7 +391,7 @@ ul[class~=filter] li {
     border-right-color: currentColor;
 }
 
-div#pub_content_1,
+div#publications,
 div#misc_content_1,
 div#work_content_1,
 ul[class~=published] {
@@ -392,7 +403,7 @@ ul[class~=published] {
 }
 
 div#work_content_1,
-div#pub_content_1,
+div#publications,
 div#misc_content_1,
 ul[class~=published] {
     margin-bottom: 0;
@@ -404,7 +415,7 @@ ul[class~=published] {
 
 ul[class~=published],
 div#misc_content_1,
-div#pub_content_1,
+div#publications,
 div#work_content_1 {
     margin-right: 0;
 }
@@ -437,7 +448,7 @@ ul[class~=filter] li {
     border-left-width: .03125in;
 }
 
-div#pub_content_1,
+div#publications,
 div#misc_content_1,
 div#work_content_1,
 ul[class~=published] {
@@ -469,7 +480,7 @@ ul[class~=filter] li {
     border-bottom-style: solid;
 }
 
-div#pub_content_1,
+div#publications,
 div#work_content_1 {
     padding-top: .052083333in;
 }
@@ -482,7 +493,7 @@ div#work_content_1 {
     border-top-style: solid;
 }
 
-div#pub_content_1,
+div#publications,
 div#work_content_1 {
     padding-right: .104166667in;
 }
@@ -498,7 +509,7 @@ div#work_content_1 {
 div#misc_content_1,
 [class~=pub_logo],
 div#side_profile,
-div#pub_content_1 {
+div#publications {
     display: inline-block;
 }
 
@@ -513,12 +524,12 @@ div#pub_content_1 {
 div#side_profile,
 [class~=pub_logo],
 div#misc_content_1,
-div#pub_content_1 {
+div#publications {
     vertical-align: top;
 }
 
 div#misc_content_1,
-div#pub_content_1 {
+div#publications {
     width: 72%;
 }
 
@@ -770,7 +781,7 @@ h3 {
     }
 
     div#edu_content_1,
-    div#pub_content_1,
+    div#publications,
     div#misc_content_1,
     div#work_content_1,
     div#main_content_1 {
@@ -779,7 +790,7 @@ h3 {
 
     div#work_content_1,
     div#edu_content_1,
-    div#pub_content_1,
+    div#publications,
     [class~=header_tab],
     div#main_content_1,
     div#misc_content_1 {
