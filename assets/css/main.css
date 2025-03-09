@@ -528,9 +528,12 @@ div#publications {
     vertical-align: top;
 }
 
-div#misc_content_1,
-div#publications {
+div#misc_content_1 {
     width: 72%;
+}
+
+div#publications {
+    width: 76%;
 }
 
 [class~=tab_selected] {
