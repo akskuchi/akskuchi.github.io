@@ -91,7 +91,7 @@ div#page {
 
 [class~=edu_inst],
 [class~=work_inst] {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 [class~=work_logo],
@@ -359,7 +359,7 @@ ul[class~=filter] li {
 .authors a,
 [class~=work_mentor] [class~=head],
 [class~=edu_thesis] [class~=head] {
-    text-decoration: underline;
+    font-style: italic;
 }
 
 [class~=header_tab] {
