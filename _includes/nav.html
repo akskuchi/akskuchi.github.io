@@ -1,0 +1,13 @@
+<nav class="site-nav" aria-label="Main">
+  <ul>
+    {%- for item in site.nav %}
+    <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+    {%- endfor %}
+    <li class="nav-theme">
+      <button class="theme-toggle" type="button" title="Switch light/dark mode" aria-label="Switch light/dark mode">
+        <span class="when-light">{% include icon.html name="moon" %}</span>
+        <span class="when-dark">{% include icon.html name="sun" %}</span>
+      </button>
+    </li>
+  </ul>
+</nav>

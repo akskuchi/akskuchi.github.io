@@ -1,0 +1,26 @@
+---
+layout: default
+title: Experience
+redirect_from: /employment.html
+---
+
+<section aria-labelledby="experience-heading">
+  <h2 id="experience-heading" class="visually-hidden">Experience</h2>
+  <ol class="entries">
+    {%- for job in site.data.experience %}
+    <li class="entry">
+      <img class="entry-logo" src="{{ job.logo | relative_url }}" alt="" width="44" height="44" loading="lazy">
+      <div class="entry-body">
+        <p class="entry-head">
+          <span class="entry-name">{{ job.organization }}</span>
+          <span class="entry-period">{{ job.period }}</span>
+        </p>
+        <p class="entry-role">{{ job.role }}</p>
+        {%- if job.details %}
+        <p class="entry-detail">{{ job.details }}</p>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>

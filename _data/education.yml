@@ -1,0 +1,35 @@
+# Newest first. `advisors` is Markdown. A thesis without a `url` is shown
+# as ongoing work.
+
+- institution: University of Amsterdam
+  logo: /assets/img/logos/uva.svg
+  period: 2021 – now
+  degree: PhD – Faculty of Science, Mathematics, and Computer Science
+  advisors_label: Advisors
+  advisors: >-
+    [Prof. Dr. Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/),
+    [Asst Prof. Dr. Sandro Pezzelle](https://sandropezzelle.github.io/)
+  thesis_label: Topic
+  thesis: Multimodal Event Understanding—Models, Behaviors, and Underlying Mechanisms
+
+- institution: Aalto University
+  logo: /assets/img/logos/aalto.svg
+  period: 2017 – 2019
+  degree: M.Sc – Machine Learning and Artificial Intelligence
+  advisors_label: Advisor
+  advisors: >-
+    [Dr. Jorma Laaksonen D.Sc. (Tech.)](https://www.aalto.fi/en/people/jorma-laaksonen)
+  thesis_label: Thesis
+  thesis: "Visual Storytelling: Captioning of Image Sequences"
+  thesis_url: https://aaltodoc.aalto.fi/handle/123456789/41756
+
+- institution: Amrita University
+  logo: /assets/img/logos/amrita.svg
+  period: 2010 – 2014
+  degree: B.Tech – Computer Science and Engineering
+  advisors_label: Advisor
+  advisors: >-
+    [Assoc Prof. Dr. Bhadrachalam Chitturi](https://personal.utdallas.edu/~chalam/)
+  thesis_label: Thesis
+  thesis: Enumerating Trees in Graphs with Constant Maximum Degree
+  thesis_url: https://github.com/akskuchi/bachelors-thesis

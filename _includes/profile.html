@@ -1,0 +1,21 @@
+{%- assign p = site.data.profile -%}
+<aside class="profile">
+  <img class="profile-photo" src="{{ p.photo | relative_url }}" width="176" height="191"
+       alt="Portrait of {{ p.first_name }} {{ p.last_name }}">
+  <div class="profile-text">
+    <p class="profile-name">
+      <span class="profile-first">{{ p.first_name }}</span>
+      <span class="profile-last">{{ p.last_name }}</span>
+    </p>
+    <p class="profile-role">
+      {{ p.title }}<br>
+      {{ p.affiliation }}<br>
+      {{ p.location }}
+    </p>
+    <ul class="profile-links">
+      {%- for link in p.links %}
+      <li><a href="{{ link.url }}" title="{{ link.name }}" aria-label="{{ link.name }}">{% include icon.html name=link.icon %}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</aside>

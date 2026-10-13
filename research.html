@@ -1,0 +1,37 @@
+---
+layout: default
+title: Research
+---
+
+<section id="publications" aria-labelledby="publications-heading">
+  <h2 id="publications-heading">Publications</h2>
+  {%- capture me %}<span class="me">{{ site.data.profile.cite_as }}</span>{% endcapture %}
+  <ol class="pubs">
+    {%- for pub in site.data.publications %}
+    <li class="pub">
+      <p class="pub-title">{{ pub.title }}</p>
+      <p class="pub-authors">
+        {%- if pub.note %}<em class="pub-note">({{ pub.note }})</em><br>{% endif -%}
+        {{ pub.authors | replace: site.data.profile.cite_as, me }}
+      </p>
+      <p class="pub-meta">
+        <span class="pub-venue{% if pub.pending %} is-pending{% endif %}">{% include md.html text=pub.venue %}</span>
+        {%- for link in pub.links %}
+        {%- if link[1] and link[1] != "" %}
+        <a class="pub-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+        {%- endif %}
+        {%- endfor %}
+      </p>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<section aria-labelledby="activities-heading">
+  <h2 id="activities-heading">Other Activities</h2>
+  <ul class="activities">
+    {%- for activity in site.data.activities %}
+    <li>{% include md.html text=activity %}</li>
+    {%- endfor %}
+  </ul>
+</section>

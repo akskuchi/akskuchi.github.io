@@ -1,0 +1,30 @@
+# Newest first. `details` is optional.
+
+- organization: Google
+  logo: /assets/img/logos/google.svg
+  period: 07/2026 – 09/2026
+  role: Intern
+
+- organization: TIMELY EU project
+  logo: /assets/img/logos/timely.webp
+  period: 08/2021 – 08/2023
+  role: Machine Learning Engineer
+  details: Worked on designing explainable AI models leveraging real-time clinical data.
+
+- organization: Aalto CBIR group
+  logo: /assets/img/logos/memad.svg
+  period: 04/2018 – 08/2019
+  role: Research Assistant
+  details: Worked on vision-based language generation as part of the MeMAD (EU Horizon 2020) project.
+
+- organization: CommerceIQ
+  logo: /assets/img/logos/commerceiq.png
+  period: 06/2015 – 06/2017
+  role: Software Development Engineer
+  details: Worked on the design and development of the dynamic price-intelligence module.
+
+- organization: Innova Solutions
+  logo: /assets/img/logos/innova.svg
+  period: 06/2014 – 06/2015
+  role: Associate Software Engineer
+  details: Worked on cross-platform web and mobile applications.

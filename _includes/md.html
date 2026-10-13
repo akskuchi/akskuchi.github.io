@@ -1,0 +1,2 @@
+{%- comment -%} Inline Markdown: renders `text` without the wrapping <p>. {%- endcomment -%}
+{{- include.text | markdownify | remove: "<p>" | remove: "</p>" | strip -}}

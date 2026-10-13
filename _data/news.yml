@@ -1,0 +1,93 @@
+# Newest first. `text` is Markdown.
+- date: 10/2026
+  text: >-
+    Wrapped up a 3-month internship project at Google in Bangalore, India.
+    Many crucial learnings and an overall enriching experience!
+
+- date: 08/2026
+  text: >-
+    Fact, not fib! Our [MF<sup>2</sup> work](/research.html#publications), now
+    titled "How Well Do Vision-Language Models Understand Movies?", is accepted
+    to [EMNLP 2026](https://2026.emnlp.org/)!
+
+- date: 01/2026
+  text: >-
+    Pre-trained multimodal models are increasingly being used in many practical
+    applications involving language generation from temporally-ordered events.
+    But do they have the fundamental ability to recognize salient sub-events in
+    such events? We investigate this and discuss the findings in our
+    [latest preprint](/research.html#publications)!
+
+- date: 06/2025
+  text: >-
+    What reasoning skills are needed to understand long videos? Can multimodal
+    AI models comprehend movies like humans do? Or are they biased toward one
+    modality? We explore these questions and release a new benchmark:
+    [MF<sup>2</sup>](/research.html#publications)!
+
+- date: 05/2025
+  text: >-
+    [Our work](https://arxiv.org/pdf/2406.18403) "LLMs instead of Human Judges?
+    A Large Scale Empirical Study across 20 NLP Evaluation Tasks" is accepted
+    to the ACL 2025 main conference
+    ([more details](https://x.com/alberto_testoni/status/1807775204023664667))!
+
+- date: 03/2025
+  text: >-
+    [Our work](https://ceur-ws.org/Vol-3964/paper19.pdf) discussing the
+    challenges in evaluating visually-grounded stories is accepted to the
+    [Text2Story](https://text2story25.inesctec.pt/) workshop collocated with
+    ECIR 2025!
+
+- date: 01/2025
+  text: >-
+    [New preprint](/research.html#publications) discussing the challenges and
+    future directions regarding "Natural Language Generation from Visual
+    Sequences"!
+
+- date: 11/2024
+  text: >-
+    Here's the [poster](/assets/files/NYTWS_poster.pdf) I used for presenting
+    our work at EMNLP!
+
+- date: 09/2024
+  text: >-
+    [Paper](https://arxiv.org/pdf/2407.04559) accepted to EMNLP 2024 Findings!
+
+- date: 07/2024
+  text: >-
+    [Two new preprints!](/research.html#publications)
+
+- date: 06/2024
+  text: >-
+    Presented work at
+    [NLG in the Lowlands workshop](https://sites.google.com/view/nlg-in-the-lowlands-2024/home?authuser=0)
+    in Bielefeld, Germany. Discussed several challenges w.r.t grounding natural
+    language in other modalities and received feedback from amazing
+    researchers!
+
+- date: 03/2024
+  text: >-
+    Attended the
+    [ELLIS NLP workshop](https://www.linkedin.com/feed/update/urn:li:activity:7181206681068916739/)
+    at the Research Institute for Mathematics (MFO) in Oberwolfach, Germany.
+    Discussed the future directions of LLMs and multimodality with amazing
+    researchers!
+
+- date: 12/2023
+  text: >-
+    Here's the [poster](/assets/files/GROOViST_poster.pdf) I used to present
+    our work at EMNLP!
+
+- date: 10/2023
+  text: >-
+    [Paper](https://aclanthology.org/2023.emnlp-main.202/) accepted to EMNLP
+    2023 main conference!, presented work at
+    [ELLIS, AI4media, and AIDA symposium on large language/foundation models](https://sites.google.com/view/ellisfms2023/home?authuser=0)!
+
+- date: 07/2023
+  text: >-
+    Attended the
+    [REST-CL](https://sites.google.com/view/rest-cl-2023/home?authuser=0)
+    retreat in Barcelona, Spain with amazing researchers working on NLP,
+    multimodality, and cognitive science!

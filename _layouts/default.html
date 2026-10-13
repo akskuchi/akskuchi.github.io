@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if page.title %}
+  <title>{{ page.title }} · {{ site.title }}</title>
+  {%- else %}
+  <title>{{ site.title }}</title>
+  {%- endif %}
+  <meta name="description" content="{{ page.description | default: site.description | strip }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b2431" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.photo | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+
+  <script>
+    // Theme: a stored choice wins, otherwise follow the system. Switching to
+    // the system's own scheme clears the stored choice again.
+    (function () {
+      var root = document.documentElement;
+      var dark = matchMedia("(prefers-color-scheme: dark)");
+      var system = function () { return dark.matches ? "dark" : "light"; };
+      var apply = function (theme) { root.dataset.theme = theme; };
+
+      apply(localStorage.getItem("theme") || system());
+
+      dark.addEventListener("change", function () {
+        if (!localStorage.getItem("theme")) apply(system());
+      });
+
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest(".theme-toggle")) return;
+        var next = root.dataset.theme === "dark" ? "light" : "dark";
+        if (next === system()) localStorage.removeItem("theme");
+        else localStorage.setItem("theme", next);
+        apply(next);
+      });
+    })();
+  </script>
+
+  <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/fonts/source-sans-3-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/source-serif-4-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="page">
+    {% include profile.html %}
+    {% include nav.html %}
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

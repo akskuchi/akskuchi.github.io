@@ -1,0 +1,85 @@
+# Newest first.
+#   venue     Markdown. Set `pending: true` for preprints and work under review.
+#   authors   Plain text; my name (cite_as in profile.yml) is highlighted.
+#   note      Optional, shown above the author list.
+#   links     label: url pairs, rendered in this order, e.g. [pdf] [poster].
+#             Links left empty are not shown.
+
+- title: Mechanistic Signs of Modality Collapse in Multimodal Event Understanding
+  venue: Under Review
+  pending: true
+  authors: Surikuchi, A. K., Fernández, R., Pezzelle, S.
+  links:
+    pdf:
+
+- title: >-
+    Where is the multimodal goal post? On the Ability of Foundation Models to
+    Recognize Highlights in Videos
+  venue: Under Review
+  pending: true
+  authors: Surikuchi, A. K., Fernández, R., Pezzelle, S.
+  links:
+    pdf: https://arxiv.org/pdf/2601.16333
+
+- title: How Well Do Vision-Language Models Understand Movies?
+  venue: Published in [EMNLP 2026](https://2026.emnlp.org/)
+  authors: >-
+    Zaranis, E., Farinhas, A., Santos, S., Canaverde, B., Ramos, M. M.,
+    Surikuchi, A. K., Liao, B., Bueno-Benito, E., Viveiros, A. G. N.,
+    Sivakumaran, N., Vasylenko, P., Yu, S., Sannigrahi, S., Mohammed, W.,
+    Peters, B., Villegas, D. S., Stengel-Eskin, E., Attanasio, G., Yoon, J.,
+    Frank, S., Suglia, A., Zerva, C., Elliott, D., Dimiccoli, M., Bansal, M.,
+    Lanz, O., Bernardi, R., Fernández, R., Pezzelle, S., Niculae, V.,
+    Martins, A. F. T.
+  links:
+    pdf: https://arxiv.org/pdf/2506.06275
+
+- title: >-
+    Natural Language Generation from Visual Events: State-of-the-Art and Key
+    Open Questions
+  venue: Under Review
+  pending: true
+  authors: Surikuchi, A. K., Fernández, R., Pezzelle, S.
+  links:
+    pdf: https://arxiv.org/pdf/2502.13034
+
+- title: On the Challenges in Evaluating Visually Grounded Stories
+  venue: Published in [Text2Story workshop](https://text2story25.inesctec.pt/) (ECIR 2025)
+  authors: Surikuchi, A. K., Fernández, R., Pezzelle, S.
+  links:
+    pdf: https://ceur-ws.org/Vol-3964/paper19.pdf
+
+- title: >-
+    LLMs instead of Human Judges? A Large Scale Empirical Study across 20 NLP
+    Evaluation Tasks
+  venue: Published in [ACL 2025](https://2025.aclweb.org/)
+  note: authors arranged alphabetically
+  authors: >-
+    Bavaresco, A., Bernardi, R., Bertolazzi, L., Elliott, D., Fernández, R.,
+    Gatt, A., Ghaleb, E., Giulianelli, M., Hanna, M., Koller, A.,
+    Martins, A. F. T., Mondorf, P., Neplenbroek, V., Pezzelle, S., Plank, B.,
+    Schlangen, D., Suglia, A., Surikuchi, A. K., Takmaz, E., Testoni, A.
+  links:
+    pdf: https://arxiv.org/pdf/2406.18403
+
+- title: >-
+    Not (yet) the whole story: Evaluating Visual Storytelling Requires More
+    than Measuring Coherence, Grounding, and Repetition
+  venue: Published in [EMNLP 2024](https://2024.emnlp.org/) Findings
+  authors: Surikuchi, A. K., Fernández, R., Pezzelle, S.
+  links:
+    pdf: https://aclanthology.org/2024.findings-emnlp.679.pdf
+    poster: /assets/files/NYTWS_poster.pdf
+
+- title: "GROOViST: A Metric for Grounding Objects in Visual Storytelling"
+  venue: Published in [EMNLP 2023](https://2023.emnlp.org/)
+  authors: Surikuchi, A. K., Pezzelle, S., Fernández, R.
+  links:
+    pdf: https://aclanthology.org/2023.emnlp-main.202.pdf
+    poster: /assets/files/GROOViST_poster.pdf
+
+- title: Character-Centric Storytelling
+  venue: Presented at [StoryNLP workshop](https://visionandlanguage.net/workshop2019/) (ACL 2019)
+  authors: Surikuchi, A. K., Laaksonen, J.
+  links:
+    pdf: https://arxiv.org/pdf/1909.07863.pdf

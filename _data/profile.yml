@@ -1,0 +1,24 @@
+first_name: Aditya Kaushik
+last_name: Surikuchi
+# How my name appears in author lists; it is highlighted on the Research page.
+cite_as: Surikuchi, A. K.
+photo: /assets/img/prof_pic.png
+title: PhD Candidate
+affiliation: University of Amsterdam
+location: Netherlands
+email: akskuchi@gmail.com
+
+# `icon` must match a name in _includes/icon.html
+links:
+  - name: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/adityaksurikuchi/
+  - name: Semantic Scholar
+    icon: semanticscholar
+    url: https://www.semanticscholar.org/author/Aditya-K-Surikuchi/1387995349?sort=pub-date
+  - name: Google Scholar
+    icon: googlescholar
+    url: https://scholar.google.com/citations?user=bnJ-B9wAAAAJ&hl=en&view_op=list_works&sortby=pubdate
+  - name: X
+    icon: x
+    url: https://x.com/akskuchi

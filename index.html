@@ -1,190 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Aditya Kaushik Surikuchi</title>
+---
+layout: default
+redirect_from: /misc.html
+---
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" /> <!-- to pre-define allowed characters -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- to support legacy web browsers -->
-<meta name="viewport" content="width=device-width, initial-scale=1"><!-- gives browser control to control page scale -->
+<section class="intro">
+  <p>
+    Hello..., welcome! I'm Aditya Kaushik, currently a PhD candidate at the
+    <a href="https://www.illc.uva.nl/">ILLC, University of Amsterdam</a> in the Netherlands, working on
+    multimodal event understanding—the models, their behaviors, and the underlying mechanisms.
+  </p>
+  <p>
+    I obtained my Master's degree in Machine Learning and Artificial Intelligence from
+    <a href="https://www.aalto.fi/en/study-options/masters-programme-in-computer-communication-and-information-sciences-machine-learning">Aalto University</a>
+    in Finland.
+  </p>
+  <p>
+    Prior to that, I worked for 3 years at <a href="https://commerceiq.ai/">CommerceIQ.AI</a> and
+    <a href="https://www.innovasolutions.com/">Innova Solutions</a>. I received my Bachelor's degree in
+    Computer Science and Engineering from
+    <a href="https://www.amrita.edu/program/btech-computer-science-and-engineering/">Amrita University</a> in India.
+  </p>
+  <p class="contact">
+    {% include icon.html name="envelope" %}
+    Contact email: <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+  </p>
+</section>
 
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="shortcut icon" type="image/png" href="favicon.png">
-
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-
-
-<body>
-
-    <div id="main_wrapper">
-
-        <div id="page">
-
-            <div id="top_pane">
-
-                <div id="side_profile_small">
-
-                    <div id="prof_pic">
-                        <img class="prof_pic" src="assets/img/prof_pic.png" />
-                    </div>
-                    <div id="prof_name">
-                        <div class="prof_firstname">Aditya Kaushik</div>
-                        <div class="prof_lastname">Surikuchi</div>
-                        <div class="prof_title">PhD Candidate</div>
-                        <div class="prof_affil">University of Amsterdam</div>
-                        <div class="prof_location">Netherlands</div>
-
-                        <div class="profile_links">
-                            <a href="https://www.linkedin.com/in/adityaksurikuchi/"><img src="assets/img/linkedin.ico"
-                                    alt="LinkedIn" /></a>
-                            <a
-                                href="https://www.semanticscholar.org/author/Aditya-K-Surikuchi/1387995349?sort=pub-date">
-                                <img src="assets/img/semantic-scholar.ico" alt="Semantic scholar" /></a>
-                            <a
-                                href="https://scholar.google.com/citations?user=bnJ-B9wAAAAJ&hl=en&view_op=list_works&sortby=pubdate"><img
-                                    src="assets/img/google-scholar.ico" alt="Google scholar" /></a>
-                            <a href="https://x.com/akskuchi"><img src="assets/img/x.png" alt="X" /></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div id="header_tabs">
-                    <a class="header_tab tab_selected" href="index.html">
-                        <div>Home</div>
-                    </a>
-
-                    <a class="header_tab " href="education.html">
-                        <div>Academia</div>
-                    </a>
-
-                    <a class="header_tab " href="employment.html">
-                        <div>Employment</div>
-                    </a>
-
-                    <a class="header_tab " href="misc.html">
-                        <div>Misc</div>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div id="main_content_1">
-                Hello..., welcome! I'm Aditya Kaushik, currently a PhD candidate
-                at the <a href="https://www.illc.uva.nl/">ILLC, University of Amsterdam</a> in the Netherlands, working
-                on visually-grounded language generation and understanding. <br>
-                I obtained my Master's degree in Machine Learning and
-                Artificial Intelligence from <a
-                    href="https://www.aalto.fi/en/study-options/masters-programme-in-computer-communication-and-information-sciences-machine-learning">Aalto
-                    University</a> in Finland. <br>
-                Prior to that, I worked for 3 years at <a href="https://commerceiq.ai/">CommerceIQ.AI</a> and <a
-                    href="https://www.innovasolutions.com/">Innova
-                    Solutions</a>.
-                I received my Bachelor's degree in Computer Science and Engineering from <a
-                    href="https://www.amrita.edu/program/btech-computer-science-and-engineering/">Amrita University</a>
-                in India.
-
-                <h1 id="email_info">Contact email: <a href="mailto:akskuchi@gmail.com"><i class="fa fa-envelope-o"></i>
-                        akskuchi@gmail.com</a></h1>
-
-                <div id="news_div">
-                    <h1>News</h1>
-                    <ul style="list-style-type: square;">
-                        <li><span class="news_date">01/2026</span>: Pre-trained multimodal models are increasingly being
-                            used in many practical applications involving language generation from
-                            temporally-ordered events. But do they have the fundamental ability to recognize salient
-                            sub-events in such events? We investigate this and discuss the findings in our <a
-                                href="education.html#publications">latest
-                                preprint</a>!</li>
-                        <li><span class="news_date">06/2025</span>: What reasoning skills are needed to understand long
-                            videos? Can multimodal AI models comprehend movies like humans do? Or are they biased toward
-                            one modality? We explore these questions and release a new benchmark: <a
-                                href="education.html#publications">MF<sup>2</sup></a>!</li>
-                        <li><span class="news_date">05/2025</span>: <a href="https://arxiv.org/pdf/2406.18403">Our
-                                work</a> "LLMs instead of Human Judges? A Large
-                            Scale Empirical Study across 20 NLP Evaluation Tasks" is accepted to the ACL 2025 main
-                            conference (<a href="https://x.com/alberto_testoni/status/1807775204023664667">more
-                                details</a>)!</li>
-                        <li><span class="news_date">03/2025</span>: <a
-                                href="https://ceur-ws.org/Vol-3964/paper19.pdf">Our work</a> discussing the
-                            challenges in evaluating visually-grounded stories is accepted to the <a
-                                href="https://text2story25.inesctec.pt/">Text2Story</a> workshop collocated with ECIR
-                            2025!</li>
-                        <li><span class="news_date">01/2025</span>: <a href="education.html#publications">New
-                                preprint</a> discussing the challenges and future directions regarding "Natural Language
-                            Generation from Visual Sequences"!</li>
-                        <li><span class="news_date">11/2024</span>: Here's the <a
-                                href="assets/files/NYTWS_poster.pdf">poster</a> I used for presenting our work at EMNLP!
-                        </li>
-                        <li><span class="news_date">09/2024</span>: <a href="https://arxiv.org/pdf/2407.04559">Paper</a>
-                            accepted to EMNLP 2024 Findings!</li>
-                        <li><span class="news_date">07/2024</span>: <a href="education.html#publications">Two new
-                                preprints!</a></li>
-                        <li><span class="news_date">06/2024</span>: Presented work at <a
-                                href="https://sites.google.com/view/nlg-in-the-lowlands-2024/home?authuser=0">NLG in
-                                the Lowlands workshop</a> in Bielefeld, Germany. Discussed several challenges w.r.t
-                            grounding natural language in other modalities and received feedback from amazing
-                            researchers!</li>
-                        <li><span class="news_date">03/2024</span>: Attended the <a
-                                href="https://www.linkedin.com/feed/update/urn:li:activity:7181206681068916739/">ELLIS
-                                NLP workshop</a> at the Research Institute for Mathematics (MFO) in Oberwolfach,
-                            Germany. Discussed the future directions of LLMs and multimodality with amazing researchers!
-                        </li>
-                        <li><span class="news_date">12/2023</span>: Here's the <a
-                                href="assets/files/GROOViST_poster.pdf">poster</a> I used to present our work at EMNLP!
-                        </li>
-                        <li><span class="news_date">10/2023</span>: <a
-                                href="https://aclanthology.org/2023.emnlp-main.202/">Paper</a> accepted to EMNLP 2023
-                            main conference!, presented work at <a
-                                href="https://sites.google.com/view/ellisfms2023/home?authuser=0">ELLIS, AI4media, and
-                                AIDA symposium on large language/foundation models</a>!
-                        </li>
-                        <li><span class="news_date">07/2023</span>: Attended the <a
-                                href="https://sites.google.com/view/rest-cl-2023/home?authuser=0">REST-CL</a> retreat in
-                            Barcelona, Spain with amazing researchers working on NLP, multimodality, and cognitive
-                            science!
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div id="side_profile">
-
-                <div id="prof_pic">
-                    <img class="prof_pic" src="assets/img/prof_pic.png" />
-                </div>
-                <div id="prof_name">
-                    <!-- <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">(/aːd̪it̪ja kawʃik/)</span> -->
-                    <div class="prof_firstname">Aditya Kaushik</div>
-                    <div class="prof_lastname">Surikuchi</div>
-                    <div class="prof_title">PhD Candidate</div>
-                    <div class="prof_affil">University of Amsterdam</div>
-                    <div class="prof_location">Netherlands</div>
-
-                    <div class="profile_links">
-                        <a href="https://www.linkedin.com/in/adityaksurikuchi/"><img src="assets/img/linkedin.ico"
-                                alt="LinkedIn" /></a>
-                        <a href="https://www.semanticscholar.org/author/Aditya-K-Surikuchi/1387995349?sort=pub-date">
-                            <img src="assets/img/semantic-scholar.ico" alt="Semantic scholar" /></a>
-                        <a
-                            href="https://scholar.google.com/citations?user=bnJ-B9wAAAAJ&hl=en&view_op=list_works&sortby=pubdate"><img
-                                src="assets/img/google-scholar.ico" alt="Google scholar" /></a>
-                        <a href="https://x.com/akskuchi"><img src="assets/img/x.png" alt="X" /></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</body>
-
-</html>
+<section aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  <ol class="news" tabindex="0" aria-labelledby="news-heading">
+    {%- for item in site.data.news %}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{% include md.html text=item.text %}</span>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>

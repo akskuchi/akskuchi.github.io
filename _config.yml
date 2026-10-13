@@ -1,0 +1,30 @@
+title: Aditya Kaushik Surikuchi
+description: >-
+  PhD candidate at the ILLC, University of Amsterdam, working on
+  multimodal event understanding—the models, their behaviors, and the
+  underlying mechanisms.
+url: https://akskuchi.github.io
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+nav:
+  - title: Home
+    url: /
+  - title: Experience
+    url: /experience.html
+  - title: Research
+    url: /research.html
+  - title: Education
+    url: /education.html
+
+# Supported on GitHub Pages; keeps old URLs (employment.html, misc.html) working.
+plugins:
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
